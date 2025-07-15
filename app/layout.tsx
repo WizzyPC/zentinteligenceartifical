@@ -1,11 +1,10 @@
-import { Toaster } from 'sonner';
 import type { Metadata } from 'next';
+import { Toaster } from 'sonner';
 import { Geist, Geist_Mono } from 'next/font/google';
 import { ThemeProvider } from '@/components/theme-provider';
-import { Analytics } from '@vercel/analytics/next';
+import { SessionProvider } from 'next-auth/react';
 
 import './globals.css';
-import { SessionProvider } from 'next-auth/react';
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://chat.vercel.ai'),
@@ -14,7 +13,7 @@ export const metadata: Metadata = {
 };
 
 export const viewport = {
-  maximumScale: 1, // Disable auto-zoom on mobile Safari
+  maximumScale: 1,
 };
 
 const geist = Geist({
@@ -61,11 +60,7 @@ export default async function RootLayout({
       className={`${geist.variable} ${geistMono.variable}`}
     >
       <head>
-        <script
-          dangerouslySetInnerHTML={{
-            __html: THEME_COLOR_SCRIPT,
-          }}
-        />
+        <script dangerouslySetInnerHTML={{ __html: THEME_COLOR_SCRIPT }} />
       </head>
       <body className="antialiased">
         <ThemeProvider
@@ -76,19 +71,8 @@ export default async function RootLayout({
         >
           <Toaster position="top-center" />
           <SessionProvider>{children}</SessionProvider>
-          <Analytics /> {/* Adicionado aqui corretamente */}
         </ThemeProvider>
       </body>
     </html>
-  );
-}
-
-
-export default function Layout({ children }) {
-  return (
-    <>
-      {children}
-      <Analytics />
-    </>
   );
 }
