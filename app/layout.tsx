@@ -3,7 +3,6 @@ import { Toaster } from 'sonner';
 import { Geist, Geist_Mono } from 'next/font/google';
 import { ThemeProvider } from '@/components/theme-provider';
 import { SessionProvider } from 'next-auth/react';
-import { SpeedInsights } from '@vercel/speed-insights/react';
 
 import './globals.css';
 
@@ -72,7 +71,6 @@ export default async function RootLayout({
         >
           <Toaster position="top-center" />
           <SessionProvider>{children}</SessionProvider>
-          <SpeedInsights />
         </ThemeProvider>
       </body>
     </html>
