@@ -51,10 +51,9 @@ Zent IA é sua plataforma de inteligência artificial, personalizada para oferec
 - Estrutura escalável com boas práticas
 
 ------------------------
-👥 EQUIPE & CONTATO
+👥 CONTATO
 ------------------------
 
-- Desenvolvedor: WizzyPC
 - GitHub: https://github.com/WizzyPC
 - Demo: [ZentIA Website](https://zentinteligenceartifical.vercel.app/)
 
