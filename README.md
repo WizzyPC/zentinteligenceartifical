@@ -4,13 +4,6 @@ ZENT IA
 
 Zent IA é sua plataforma de inteligência artificial, personalizada para oferecer chat avançado, análises e automações com eficiência e design moderno.
 
-Links rápidos:
-- Recursos
-- Tecnologias
-- Arquitetura
-- Como usar
-- Contato
-
 ------------------------
 🚀 RECURSOS (FEATURES)
 ------------------------
@@ -63,7 +56,7 @@ Links rápidos:
 
 - Desenvolvedor: WizzyPC
 - GitHub: https://github.com/WizzyPC
-- Contato: email@exemplo.com
+- Demo: [ZentIA Website](https://zentinteligenceartifical.vercel.app/)
 
 ------------------------
 📄 LICENÇA
