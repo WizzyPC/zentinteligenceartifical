@@ -1,64 +1,62 @@
+# ZENT IA
 
-ZENT IA
-=======
+Zent IA is your artificial intelligence platform, customized to provide advanced chat, analytics, and automations with efficiency and modern design.
 
-Zent IA é sua plataforma de inteligência artificial, personalizada para oferecer chat avançado, análises e automações com eficiência e design moderno.
+---
 
-------------------------
-🚀 RECURSOS (FEATURES)
-------------------------
+## 🚀 FEATURES
 
-- Chat inteligente e contínuo com histórico e contexto
-- Análise de dados com dashboards e gráficos
-- Geração de conteúdo automatizado (textos, insights)
-- Integração via API com autenticação segura
-- Interface responsiva com design moderno
+* Smart, continuous chat with history and context
+* Data analysis with dashboards and charts
+* Automated content generation (texts, insights)
+* API integration with secure authentication
+* Responsive interface with modern design
 
-------------------------
-🧰 TECNOLOGIAS
-------------------------
+---
 
-- Front-end: React, Next.js, Vue.js
-- Back-end: FastAPI (Python) ou Express (Node.js)
-- Modelos IA: LLMs customizados conectados por SDK/API
-- Banco de dados: PostgreSQL, MongoDB, SQLite
-- Armazenamento: Vercel Blob, AWS S3
-- Autenticação: JWT, OAuth, Auth.js
+## 🧰 TECHNOLOGIES
 
-------------------------
-🏗️ ARQUITETURA
-------------------------
+* Front-end: React, Next.js, Vue.js
+* Back-end: FastAPI (Python) or Express (Node.js)
+* AI Models: Custom LLMs connected via SDK/API
+* Databases: PostgreSQL, MongoDB, SQLite
+* Storage: Vercel Blob, AWS S3
+* Authentication: JWT, OAuth, Auth.js
 
-[Usuário] → [Front-end] → [Back-end/API] → [Modelos IA]
-                                ↓
-                          [Banco de dados]
+---
 
-------------------------
-📊 ESTATÍSTICAS E VISUALIZAÇÕES
-------------------------
+## 🏗️ ARCHITECTURE
 
-- Volume de requisições diárias
-- Precisão e latência dos modelos
-- Dashboards interativos com gráficos
+[User] → [Front-end] → [Back-end/API] → [AI Models]
+↓
+[Database]
 
-------------------------
-🧠 SOBRE A ZENT IA
-------------------------
+---
 
-- IA personalizada para comunicação natural
-- Geração de análises e resultados úteis
-- Interface clara e responsiva
-- Estrutura escalável com boas práticas
+## 📊 STATISTICS & VISUALIZATIONS
 
-------------------------
-👥 CONTATO
-------------------------
+* Daily request volume
+* Model accuracy and latency
+* Interactive dashboards with charts
 
-- GitHub: https://github.com/WizzyPC
-- Demo: [ZentIA Website](https://zentinteligenceartifical.vercel.app/)
+---
 
-------------------------
-📄 LICENÇA
-------------------------
+## 🧠 ABOUT ZENT IA
 
-Este projeto é open-source sob licença MIT.
+* AI customized for natural communication
+* Generation of useful analyses and results
+* Clear and responsive interface
+* Scalable structure with best practices
+
+---
+
+## 👥 CONTACT
+
+* GitHub: [https://github.com/WizzyPC](https://github.com/WizzyPC)
+* Demo: [ZentIA Website](https://zentinteligenceartifical.vercel.app/)
+
+---
+
+## 📄 LICENSE
+
+This project is open-source under the MIT license.
